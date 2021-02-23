@@ -1,0 +1,128 @@
+.wite {
+    color: aliceblue
+}
+
+
+
+.starter-top {
+    width: 100%;
+    height: 50px;
+    background-color: #444;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: inline-block
+}
+
+.toppper {
+    color: white;
+}
+
+.toppper2 {
+    color: aqua;
+}
+
+.main-color {
+    color: aqua
+}
+
+.main-color-tx {
+    background-color: aqua
+}
+
+.black {
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sriracha', cursive;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.header-content {
+    position: relative;
+    background-image: url(img/man.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.header-content .overlay {
+    color: aliceblue;
+    padding: 200px 20%;
+    text-align: center
+}
+
+.main_ourWork {
+    text-align: center;
+    margin-top: 50px
+}
+
+.p {
+    width: 550px;
+    height: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.img-filter {
+    position: relative;
+
+}
+
+.img-filter .overlay {
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+    opacity: 0;
+    transition: all .6s ease
+}
+
+.img-filter .overlay:hover {
+    opacity: 1;
+    cursor: pointer
+}
+
+.carousel-indicators li {
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.show {
+    display: block
+}
+
+.hide {
+    display: none
+}
+
+.w-h {
+    width: 30px;
+    height: 30px;
+}
+
+.serv-icon,
+.sern-content {
+    float: left;
+}
